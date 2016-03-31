@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textRT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RT"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <TextView
+            android:id="@+id/textSND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  SND" 
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <TextView
+            android:id="@+id/textCRDS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  No Loc. Data" 
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+        <TextView
+            android:id="@+id/textVOL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Vol: 0"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+        <TextView
+            android:id="@+id/textDIST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  DST: 0m" android:layout_gravity="right"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+</LinearLayout>
+
+<com.google.android.maps.MapView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:apiKey="0t6OF1a7sjAVhUA1WCpqfqLfb6ZWSnIKFQhMGpQ"
+android:fadeScrollbars="false"/>
+</LinearLayout>

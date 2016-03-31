@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item android:id="@+id/load_patras1" android:title="@+string/load_patras1" />
+<item android:id="@+id/load_patras2" android:title="@+string/load_patras2" />
+<item android:id="@+id/play3d" android:title="3D Player" /> 
+<item android:id="@+id/set_start" android:title="Start Point" /> 
+<item android:id="@+id/set_end" android:title="End Point" />
+<item android:id="@+id/toggle_audio" android:title="@+string/audio" />
+<item android:id="@+id/load_coords" android:title="@+string/load_waypoints" />   
+<item android:id="@+id/exit_app" android:title="@+string/exit" />
+</menu>
